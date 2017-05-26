@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>absolute psoitionning</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <p>test</p>
+    <div>
+      yolo
+    </div>
+    <div id="absolute">
+      ABSOLUTE
+    </div>
+    <button id="bouton">click</button>
+    <script>
+      document.querySelector('#bouton').addEventListener('click', () => 
+        document.querySelector('#absolute').style.height = '200px');
+    </script>
+  </body>
+</html>

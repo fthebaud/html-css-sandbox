@@ -1,0 +1,102 @@
+.centered-div {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* No media query since this is the default in Bootstrap */
+
+.xs-color {
+  background-color: red
+}
+
+.xs-visibility {
+  display: initial;
+}
+
+.sm-visibility {
+  display: none;
+}
+
+.md-visibility {
+  display: none;
+}
+
+.ls-visibility {
+  display: none;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  .sm-color {
+    background-color: blue
+  }
+  .xs-visibility {
+    display: none;
+  }
+  .sm-visibility {
+    display: initial;
+  }
+  .md-visibility {
+    display: none;
+  }
+  .ls-visibility {
+    display: none;
+  }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .md-color {
+    background-color: green
+  }
+  .xs-visibility {
+    display: none;
+  }
+  .sm-visibility {
+    display: none;
+  }
+  .md-visibility {
+    display: initial;
+  }
+  .ls-visibility {
+    display: none;
+  }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  .lg-color {
+    background-color: yellow
+  }
+  .xs-visibility {
+    display: none;
+  }
+  .sm-visibility {
+    display: none;
+  }
+  .md-visibility {
+    display: none;
+  }
+  .ls-visibility {
+    display: initial;
+  }
+}
+
+span {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, 'Helvetica Neue';
+}

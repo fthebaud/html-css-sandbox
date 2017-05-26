@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+}
+
+.div1 {
+  background-color: cornflowerblue;
+}
+
+.div2 {
+  background-color: beige;
+}
+
+.div3 {
+  background-color: blanchedalmond;
+}

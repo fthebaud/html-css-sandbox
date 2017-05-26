@@ -1,0 +1,16 @@
+.level-0 {
+  font-size: 8px;
+}
+
+
+.level-1>*{
+  border: 1px solid black;
+}
+
+.level-2-em {
+  width: 10em; /* should be 8*10=80px */
+}
+
+.level-2-rem {
+  width: 10rem; /* should be 16*10=160px */
+}

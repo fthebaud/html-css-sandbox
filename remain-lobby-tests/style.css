@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 56px;
+  background-color: lightblue;
+}
+
+.content {
+  flex-basis: 100%;
+  display: flex;
+  background-color: lightcoral;
+}
+
+nav {
+  background-color: darkred;
+  width: 150px;
+}
+
+.main {
+  flex-basis: 100%;
+  background-color: darkblue;
+}
